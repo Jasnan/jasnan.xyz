@@ -1,6 +1,8 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
-  "version": "1.0.0-canary.1",
+  "name": "jasnan.xyz",
+  "version": "1.0.0",
+  "description": "Jasnan's personal website running on Next.js",
+  "author": "Jasnan Thachaparamban",
   "private": true,
   "scripts": {
     "start": "next-remote-watch ./data",
