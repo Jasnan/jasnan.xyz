@@ -1,5 +1,5 @@
 ---
-title: Hello world again!
+title: Hello World Again!
 date: '2021-07-23'
 tags: ['rant']
 draft: false
