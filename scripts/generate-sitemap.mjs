@@ -1,7 +1,7 @@
-const fs = require('fs')
-const globby = require('globby')
-const prettier = require('prettier')
-const siteMetadata = require('../data/siteMetadata')
+import fs from 'fs'
+import { globby } from 'globby'
+import prettier from 'prettier'
+import metadata from '../data/metadata.js'
 
 ;(async () => {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
@@ -28,12 +28,12 @@ const siteMetadata = require('../data/siteMetadata')
                   .replace('.md', '')
                   .replace('/feed.xml', '')
                 const route = path === '/index' ? '' : path
-                if (page === `pages/404.js` || page === `pages/blog/[...slug].js`) {
+                if (page === 'pages/404.js' || page === 'pages/blog/[...slug].js') {
                   return
                 }
                 return `
                         <url>
-                            <loc>${siteMetadata.siteUrl}${route}</loc>
+                            <loc>${metadata.url}${route}</loc>
                         </url>
                     `
               })
