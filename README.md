@@ -1,11 +1,5 @@
-# Jasnan.xyz
+# [{jasnan.xyz}](https://jasnan.xyz)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This blog was created using Next.js, Tailwind CSS, and MDX. The source code for this blog was based on a fork of [nchristopher.me](https://github.com/nchristopher/blog), which was itself derived from [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog).
 
-Jasnan's personal blog running on [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) and [Vercel Platform](https://vercel.com) for the deployment.
-
-The template in use is the [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog/wiki)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## [📜 License](LICENSE)
