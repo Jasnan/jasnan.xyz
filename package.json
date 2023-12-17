@@ -15,7 +15,7 @@
     "compose": "node ./scripts/compose.mjs"
   },
   "dependencies": {
-    "@giscus/react": "2.2.0",
+    "@giscus/react": "2.4.0",
     "@tailwindcss/typography": "0.5.7",
     "autoprefixer": "10.4.12",
     "esbuild": "0.15.12",
