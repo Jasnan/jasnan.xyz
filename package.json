@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@giscus/react": "2.2.0",
-    "@tailwindcss/typography": "0.5.7",
+    "@tailwindcss/typography": "0.5.12",
     "autoprefixer": "10.4.12",
     "esbuild": "0.15.12",
     "github-slugger": "1.4.0",
